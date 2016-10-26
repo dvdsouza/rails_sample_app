@@ -296,6 +296,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rb-readline (0.5.3)
     rbvmomi (1.8.2)
       builder
       nokogiri (>= 1.4.1)
@@ -363,9 +364,11 @@ DEPENDENCIES
   mini_magick (= 4.5.1)
   minitest-reporters (= 1.1.9)
   pg (= 0.18.4)
+  pry
   puma (= 3.4.0)
   rails (= 5.0.0.1)
   rails-controller-testing (= 0.1.1)
+  rb-readline
   sass-rails (= 5.0.6)
   spring (= 1.7.2)
   spring-watcher-listen (= 2.0.0)

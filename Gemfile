@@ -20,6 +20,8 @@ gem 'jbuilder',                '2.4.1'
 group :development, :test do
   gem 'sqlite3', '1.3.11'
   gem 'byebug',  '9.0.0', platform: :mri
+  gem 'pry'
+  gem 'rb-readline'
 end
 
 group :development do
