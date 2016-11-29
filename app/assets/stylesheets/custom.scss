@@ -2,7 +2,7 @@
 * @Author: David Souza
 * @Date:   2016-11-28 08:25:16
 * @Last Modified by:   David Souza
-* @Last Modified time: 2016-11-28 08:41:10
+* @Last Modified time: 2016-11-29 09:04:29
 */
 
 @import "bootstrap-sprockets";
@@ -75,4 +75,36 @@ p {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
